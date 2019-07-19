@@ -120,3 +120,7 @@ model.compile(SGD(lr=0.5),
 model.fit(X, y, epochs=30, verbose=0);
 
 train_and_plot_model(X, y)
+
+# Useful links I used during this:
+# https://docs.scipy.org/doc/numpy/user/quickstart.html
+# https://ml-cheatsheet.readthedocs.io/en/latest/linear_algebra.html
